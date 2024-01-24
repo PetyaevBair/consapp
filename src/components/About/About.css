@@ -1,0 +1,18 @@
+.section-about-image-box {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.section-about-image-box>img {
+    width: 250px;
+    height: 250px;
+}
+
+.section-about-description p {
+  text-align: justify;
+  font-family: corbel; 
+}
+
+main.main-about {
+  width: 950px;
+}

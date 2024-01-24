@@ -1,0 +1,26 @@
+.cons-inf-container {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.cons-input-container {
+    margin-right: 5px;
+}
+
+.cons-input-text {
+    width: 740px;
+    height: 70px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.cons-button-add {
+    width: 90px;
+    height: 38px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #94bfdb;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #00FFFF;
+}

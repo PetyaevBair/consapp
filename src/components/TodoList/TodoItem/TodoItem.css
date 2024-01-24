@@ -1,0 +1,19 @@
+.todo-item {
+    display: flex;
+    margin-bottom: 7px; 
+}
+
+.todo-item-text {
+    width: 717px;
+    margin-right: 5px;
+}
+
+.todo-item-button-delete {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #94bfdb;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #00FFFF;
+}

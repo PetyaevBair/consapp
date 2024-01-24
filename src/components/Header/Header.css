@@ -1,0 +1,21 @@
+.logo-div {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+header.main-header {
+  margin: 0 auto 20px auto;
+
+
+  background-color: #4682B4;
+  height: 60px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+
+ }

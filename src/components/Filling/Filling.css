@@ -1,0 +1,9 @@
+.app-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.main-content-section {
+    width: 970px;
+    padding-top: 20px;
+}

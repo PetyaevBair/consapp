@@ -1,0 +1,21 @@
+.cons-item {
+    display: flex;
+    margin-bottom: 7px; 
+}
+
+.cons-item-text {
+    width: 717px;
+    margin-right: 5px;
+}
+
+.cons-item-button-delete {
+    /* width: 20px;
+    height: 20px; */
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #94bfdb;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #00FFFF;
+}
