@@ -1,10 +1,14 @@
-import { combineReducers, legacy_createStore as createStore } from "redux";
 import consultationsReducer from "./consultationReducer";
+import { configureStore } from "@reduxjs/toolkit";
+import postReducer from "./postSlice";
 
-let reducers = combineReducers({
-    consultations: consultationsReducer
+let store = configureStore({
+    reducer: {
+        consultations: consultationsReducer,
+        posts: postReducer,
+    }
 });
 
-let store = createStore(reducers);
-
 export default store;
+
+window.store = store;

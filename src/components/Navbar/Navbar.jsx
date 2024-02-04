@@ -14,6 +14,9 @@ export default function Navbar() {
                 <li>
                     <NavLink to="/todolist" className='nav-link-item'>Список дел</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/posts" className='nav-link-item'>Посты</NavLink>
+                </li>
             </ul>
         </nav>
     );
